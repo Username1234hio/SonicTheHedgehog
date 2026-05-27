@@ -1,1 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sonic Velocity Comics</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Oswald:wght@400;700&family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
 
+<!-- NAVIGATION -->
+<nav class="navbar">
+  <div class="nav-logo">
+    <span class="logo-text">⚡ SONIC VELOCITY</span>
+    <span class="logo-sub">COMICS</span>
+  </div>
+  <ul class="nav-links">
+    <li><a href="index.html" class="nav-link active">HOME</a></li>
+    <li><a href="issues.html" class="nav-link">ISSUES</a></li>
+    <li><a href="characters.html" class="nav-link">CHARACTERS</a></li>
+    <li><a href="about.html" class="nav-link">ABOUT</a></li>
+  </ul>
+  <div class="nav-burger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="halftone-bg"></div>
+  <div class="speed-lines"></div>
+  <div class="hero-content">
+    <div class="hero-badge">FAN COMIC SERIES</div>
+    <h1 class="hero-title">
+      <span class="title-line1">SONIC</span>
+      <span class="title-line2">VELOCITY</span>
+    </h1>
+    <p class="hero-sub">An original fan-made comic saga.<br>Speed, courage, and chaos — every issue.</p>
+    <div class="hero-btns">
+      <a href="issues.html" class="btn btn-primary">READ NOW</a>
+      <a href="issues.html#latest" class="btn btn-outline">LATEST ISSUE</a>
+    </div>
+  </div>
+  <div class="hero-rings">
+    <div class="ring ring1"></div>
+    <div class="ring ring2"></div>
+    <div class="ring ring3"></div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-bar">
+  <div class="marquee-track">
+    <span>⚡ SONIC VELOCITY COMICS</span>
+    <span>★ NEW ISSUES EVERY MONTH</span>
+    <span>💎 COLLECT ALL CHAOS EMERALDS</span>
+    <span>🦔 FAN MADE WITH LOVE</span>
+    <span>⚡ SONIC VELOCITY COMICS</span>
+    <span>★ NEW ISSUES EVERY MONTH</span>
+    <span>💎 COLLECT ALL CHAOS EMERALDS</span>
+    <span>🦔 FAN MADE WITH LOVE</span>
+  </div>
+</div>
+
+<!-- LATEST ISSUES PREVIEW -->
+<section class="section issues-preview">
+  <div class="section-header">
+    <h2 class="section-title">LATEST ISSUES</h2>
+    <div class="title-bar"></div>
+  </div>
+  <div class="issues-grid">
+
+    <div class="issue-card featured">
+      <div class="issue-num">#05</div>
+      <div class="issue-cover">
+        <div class="cover-art cover5">
+          <div class="cover-sonic"></div>
+          <div class="cover-rings-deco"></div>
+        </div>
+      </div>
+      <div class="issue-info">
+        <div class="issue-tag">LATEST</div>
+        <h3 class="issue-title">SPEED OF DARKNESS</h3>
+        <p class="issue-desc">Shadow returns with an ultimatum that will shake the very foundations of Station Square. Sonic must choose: his freedom, or the city.</p>
+        <a href="issues.html#issue5" class="btn btn-small">READ FREE</a>
+      </div>
+    </div>
+
+    <div class="issue-card">
+      <div class="issue-num">#04</div>
+      <div class="issue-cover">
+        <div class="cover-art cover4"></div>
+      </div>
+      <div class="issue-info">
+        <h3 class="issue-title">EMERALD TIDE</h3>
+        <p class="issue-desc">The Chaos Emeralds are scattered. Knuckles races the clock while Eggman deploys his most devious machine yet.</p>
+        <a href="issues.html#issue4" class="btn btn-small">READ FREE</a>
+      </div>
+    </div>
+
+    <div class="issue-card">
+      <div class="issue-num">#03</div>
+      <div class="issue-cover">
+        <div class="cover-art cover3"></div>
+      </div>
+      <div class="issue-info">
+        <h3 class="issue-title">MILES APART</h3>
+        <p class="issue-desc">Tails goes solo on a mission deep into Eggman's territory. A coming-of-age story told at 768 mph.</p>
+        <a href="issues.html#issue3" class="btn btn-small">READ FREE</a>
+      </div>
+    </div>
+
+  </div>
+  <div class="see-all-wrap">
+    <a href="issues.html" class="btn btn-outline">SEE ALL ISSUES →</a>
+  </div>
+</section>
+
+<!-- STORY ARC BANNER -->
+<section class="arc-banner">
+  <div class="arc-inner">
+    <div class="arc-text">
+      <div class="arc-label">CURRENT STORY ARC</div>
+      <h2 class="arc-title">THE CHAOS PROTOCOL</h2>
+      <p class="arc-desc">A 6-issue epic saga spanning land, sky, and the chaos dimension itself. Issues #03–#08. Collect them all.</p>
+      <div class="arc-progress">
+        <span class="arc-prog-label">ARC PROGRESS</span>
+        <div class="prog-bar-wrap">
+          <div class="prog-bar" style="width: 50%"></div>
+        </div>
+        <span class="arc-prog-label">3/6 ISSUES COMPLETE</span>
+      </div>
+      <a href="issues.html" class="btn btn-white">FOLLOW THE ARC →</a>
+    </div>
+    <div class="arc-visual">
+      <div class="chaos-emerald e1"></div>
+      <div class="chaos-emerald e2"></div>
+      <div class="chaos-emerald e3"></div>
+      <div class="chaos-emerald e4"></div>
+      <div class="chaos-emerald e5"></div>
+      <div class="chaos-emerald e6"></div>
+      <div class="chaos-emerald e7"></div>
+    </div>
+  </div>
+</section>
+
+<!-- CHARACTERS TEASER -->
+<section class="section chars-teaser">
+  <div class="section-header">
+    <h2 class="section-title">THE CAST</h2>
+    <div class="title-bar"></div>
+  </div>
+  <div class="chars-row">
+    <a href="characters.html#sonic" class="char-thumb">
+      <div class="char-icon sonic-icon">🦔</div>
+      <div class="char-name">SONIC</div>
+      <div class="char-role">THE HERO</div>
+    </a>
+    <a href="characters.html#tails" class="char-thumb">
+      <div class="char-icon tails-icon">🦊</div>
+      <div class="char-name">TAILS</div>
+      <div class="char-role">THE INVENTOR</div>
+    </a>
+    <a href="characters.html#knuckles" class="char-thumb">
+      <div class="char-icon knux-icon">👊</div>
+      <div class="char-name">KNUCKLES</div>
+      <div class="char-role">THE GUARDIAN</div>
+    </a>
+    <a href="characters.html#amy" class="char-thumb">
+      <div class="char-icon amy-icon">🌸</div>
+      <div class="char-name">AMY</div>
+      <div class="char-role">THE WARRIOR</div>
+    </a>
+    <a href="characters.html#shadow" class="char-thumb">
+      <div class="char-icon shadow-icon">🖤</div>
+      <div class="char-name">SHADOW</div>
+      <div class="char-role">THE RIVAL</div>
+    </a>
+    <a href="characters.html#eggman" class="char-thumb">
+      <div class="char-icon egg-icon">🥚</div>
+      <div class="char-name">EGGMAN</div>
+      <div class="char-role">THE VILLAIN</div>
+    </a>
+  </div>
+  <div class="see-all-wrap">
+    <a href="characters.html" class="btn btn-outline">MEET ALL CHARACTERS →</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-logo">⚡ SONIC VELOCITY COMICS</div>
+    <p class="footer-disclaimer">This is a fan-made, non-commercial comic. Sonic the Hedgehog and all related characters are the property of SEGA. No copyright infringement intended. Created with love by fans, for fans.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="issues.html">Issues</a>
+      <a href="characters.html">Characters</a>
+      <a href="about.html">About</a>
+    </div>
+    <p class="footer-copy">© 2025 Sonic Velocity Comics — Fan Project</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
