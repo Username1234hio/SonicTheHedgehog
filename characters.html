@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Characters — Sonic Velocity Comics</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Oswald:wght@400;700&family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-logo">
+    <span class="logo-text">⚡ SONIC VELOCITY</span>
+    <span class="logo-sub">COMICS</span>
+  </div>
+  <ul class="nav-links">
+    <li><a href="index.html" class="nav-link">HOME</a></li>
+    <li><a href="issues.html" class="nav-link">ISSUES</a></li>
+    <li><a href="characters.html" class="nav-link active">CHARACTERS</a></li>
+    <li><a href="about.html" class="nav-link">ABOUT</a></li>
+  </ul>
+  <div class="nav-burger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<div class="page-header">
+  <div class="speed-lines"></div>
+  <h1 class="page-title">THE CAST</h1>
+  <p class="page-sub">Meet the heroes, rivals, and villains of Sonic Velocity Comics.</p>
+</div>
+
+<section class="section chars-full">
+
+  <!-- SONIC -->
+  <div class="char-card" id="sonic">
+    <div class="char-card-side sonic-card-side">
+      <div class="char-big-icon">🦔</div>
+      <div class="char-stat-block">
+        <div class="stat-row"><span class="stat-name">SPEED</span><div class="stat-bar"><div class="stat-fill" style="width:100%"></div></div><span>MAX</span></div>
+        <div class="stat-row"><span class="stat-name">POWER</span><div class="stat-bar"><div class="stat-fill" style="width:72%"></div></div><span>72</span></div>
+        <div class="stat-row"><span class="stat-name">AGILITY</span><div class="stat-bar"><div class="stat-fill" style="width:95%"></div></div><span>95</span></div>
+        <div class="stat-row"><span class="stat-name">WIT</span><div class="stat-bar"><div class="stat-fill" style="width:80%"></div></div><span>80</span></div>
+      </div>
+    </div>
+    <div class="char-card-info">
+      <div class="char-info-header">
+        <h2 class="char-big-name">SONIC THE HEDGEHOG</h2>
+        <div class="char-role-tag hero-tag">THE HERO</div>
+      </div>
+      <p class="char-bio">The fastest thing alive, and he knows it. Sonic is brash, confident, and always has a quip ready — but beneath the attitude is a genuine hero who will never abandon a friend. In Sonic Velocity Comics, we explore a slightly older Sonic grappling with what it means to be a symbol of hope in a complicated world.</p>
+      <p class="char-bio">His rivalry with Shadow, his bond with Tails, and his complicated feelings about fame all come to a head during the Chaos Protocol arc.</p>
+      <div class="char-appearances">
+        <div class="appear-label">APPEARS IN:</div>
+        <div class="appear-tags">
+          <span class="appear-tag">#01</span>
+          <span class="appear-tag">#02</span>
+          <span class="appear-tag">#04</span>
+          <span class="appear-tag">#05</span>
+          <span class="appear-tag">S#1</span>
+        </div>
+      </div>
+      <a href="issues.html#issue1" class="btn btn-small">READ HIS STORY</a>
+    </div>
+  </div>
+
+  <!-- TAILS -->
+  <div class="char-card reverse" id="tails">
+    <div class="char-card-side tails-card-side">
+      <div class="char-big-icon">🦊</div>
+      <div class="char-stat-block">
+        <div class="stat-row"><span class="stat-name">SPEED</span><div class="stat-bar"><div class="stat-fill" style="width:60%"></div></div><span>60</span></div>
+        <div class="stat-row"><span class="stat-name">POWER</span><div class="stat-bar"><div class="stat-fill" style="width:55%"></div></div><span>55</span></div>
+        <div class="stat-row"><span class="stat-name">FLIGHT</span><div class="stat-bar"><div class="stat-fill" style="width:90%"></div></div><span>90</span></div>
+        <div class="stat-row"><span class="stat-name">INTELLECT</span><div class="stat-bar"><div class="stat-fill" style="width:100%"></div></div><span>MAX</span></div>
+      </div>
+    </div>
+    <div class="char-card-info">
+      <div class="char-info-header">
+        <h2 class="char-big-name">MILES "TAILS" PROWER</h2>
+        <div class="char-role-tag tails-tag">THE INVENTOR</div>
+      </div>
+      <p class="char-bio">Tails is the brains behind most of Team Sonic's victories — even if Sonic won't always admit it. With an IQ that rivals Eggman's and a heart twice as big, Tails is the emotional core of Sonic Velocity Comics. Issue #03 is entirely his story, and it's one of our most beloved.</p>
+      <p class="char-bio">His twin tails allow him to fly like a helicopter, and his workshop houses gadgets that would make any engineer weep with envy.</p>
+      <div class="char-appearances">
+        <div class="appear-label">APPEARS IN:</div>
+        <div class="appear-tags">
+          <span class="appear-tag">#01</span>
+          <span class="appear-tag">#03</span>
+          <span class="appear-tag">#04</span>
+          <span class="appear-tag">#05</span>
+        </div>
+      </div>
+      <a href="issues.html#issue3" class="btn btn-small">READ HIS STORY</a>
+    </div>
+  </div>
+
+  <!-- KNUCKLES -->
+  <div class="char-card" id="knuckles">
+    <div class="char-card-side knux-card-side">
+      <div class="char-big-icon">👊</div>
+      <div class="char-stat-block">
+        <div class="stat-row"><span class="stat-name">SPEED</span><div class="stat-bar"><div class="stat-fill" style="width:65%"></div></div><span>65</span></div>
+        <div class="stat-row"><span class="stat-name">POWER</span><div class="stat-bar"><div class="stat-fill" style="width:98%"></div></div><span>98</span></div>
+        <div class="stat-row"><span class="stat-name">DEFENSE</span><div class="stat-bar"><div class="stat-fill" style="width:92%"></div></div><span>92</span></div>
+        <div class="stat-row"><span class="stat-name">WIT</span><div class="stat-bar"><div class="stat-fill" style="width:50%"></div></div><span>50</span></div>
+      </div>
+    </div>
+    <div class="char-card-info">
+      <div class="char-info-header">
+        <h2 class="char-big-name">KNUCKLES THE ECHIDNA</h2>
+        <div class="char-role-tag knux-tag">THE GUARDIAN</div>
+      </div>
+      <p class="char-bio">Last of the Knuckle Clan, guardian of the Master Emerald on Angel Island. Knuckles is stubborn, serious, and occasionally very gullible — but in a fight, there's nobody you'd rather have in your corner. His fists can shatter boulders, and his loyalty is unbreakable.</p>
+      <p class="char-bio">Issue #04 places Knuckles in the spotlight during the Emerald Tide storyline, testing his skills against Eggman's most ruthless Badniks.</p>
+      <div class="char-appearances">
+        <div class="appear-label">APPEARS IN:</div>
+        <div class="appear-tags">
+          <span class="appear-tag">#02</span>
+          <span class="appear-tag">#04</span>
+          <span class="appear-tag">#05</span>
+        </div>
+      </div>
+      <a href="issues.html#issue4" class="btn btn-small">READ HIS STORY</a>
+    </div>
+  </div>
+
+  <!-- AMY -->
+  <div class="char-card reverse" id="amy">
+    <div class="char-card-side amy-card-side">
+      <div class="char-big-icon">🌸</div>
+      <div class="char-stat-block">
+        <div class="stat-row"><span class="stat-name">SPEED</span><div class="stat-bar"><div class="stat-fill" style="width:70%"></div></div><span>70</span></div>
+        <div class="stat-row"><span class="stat-name">POWER</span><div class="stat-bar"><div class="stat-fill" style="width:85%"></div></div><span>85</span></div>
+        <div class="stat-row"><span class="stat-name">COURAGE</span><div class="stat-bar"><div class="stat-fill" style="width:100%"></div></div><span>MAX</span></div>
+        <div class="stat-row"><span class="stat-name">SPIRIT</span><div class="stat-bar"><div class="stat-fill" style="width:95%"></div></div><span>95</span></div>
+      </div>
+    </div>
+    <div class="char-card-info">
+      <div class="char-info-header">
+        <h2 class="char-big-name">AMY ROSE</h2>
+        <div class="char-role-tag amy-tag">THE WARRIOR</div>
+      </div>
+      <p class="char-bio">Don't let the pink fool you. Amy Rose wields her Piko Piko Hammer with devastating precision, and her determination could outlast a Chaos Emerald. In Sonic Velocity Comics, Amy has grown from a lovestruck fan into a true warrior with her own goals and her own story to tell.</p>
+      <p class="char-bio">Special Issue #1 is dedicated entirely to her — and fans have called it one of the best single issues we've produced.</p>
+      <div class="char-appearances">
+        <div class="appear-label">APPEARS IN:</div>
+        <div class="appear-tags">
+          <span class="appear-tag">#01</span>
+          <span class="appear-tag">#03</span>
+          <span class="appear-tag">S#1</span>
+        </div>
+      </div>
+      <a href="issues.html#issueS1" class="btn btn-small">READ HER STORY</a>
+    </div>
+  </div>
+
+  <!-- SHADOW -->
+  <div class="char-card" id="shadow">
+    <div class="char-card-side shadow-card-side">
+      <div class="char-big-icon">🖤</div>
+      <div class="char-stat-block">
+        <div class="stat-row"><span class="stat-name">SPEED</span><div class="stat-bar"><div class="stat-fill shadow-fill" style="width:100%"></div></div><span>MAX</span></div>
+        <div class="stat-row"><span class="stat-name">POWER</span><div class="stat-bar"><div class="stat-fill shadow-fill" style="width:96%"></div></div><span>96</span></div>
+        <div class="stat-row"><span class="stat-name">CHAOS</span><div class="stat-bar"><div class="stat-fill shadow-fill" style="width:100%"></div></div><span>MAX</span></div>
+        <div class="stat-row"><span class="stat-name">COLD</span><div class="stat-bar"><div class="stat-fill shadow-fill" style="width:88%"></div></div><span>88</span></div>
+      </div>
+    </div>
+    <div class="char-card-info">
+      <div class="char-info-header">
+        <h2 class="char-big-name">SHADOW THE HEDGEHOG</h2>
+        <div class="char-role-tag shadow-tag">THE RIVAL</div>
+      </div>
+      <p class="char-bio">The Ultimate Life Form. Created by Gerald Robotnik, Shadow exists at the intersection of science and tragedy. He matches Sonic in speed and surpasses him in raw Chaos power — and unlike Sonic, he operates without a rulebook. Ally? Enemy? It depends on the day.</p>
+      <p class="char-bio">Shadow is the driving force behind issue #05 — the most intense issue we've written. His confrontation with Sonic is months in the making.</p>
+      <div class="char-appearances">
+        <div class="appear-label">APPEARS IN:</div>
+        <div class="appear-tags">
+          <span class="appear-tag">#02</span>
+          <span class="appear-tag">#05</span>
+        </div>
+      </div>
+      <a href="issues.html#issue5" class="btn btn-small">READ HIS STORY</a>
+    </div>
+  </div>
+
+  <!-- EGGMAN -->
+  <div class="char-card reverse" id="eggman">
+    <div class="char-card-side egg-card-side">
+      <div class="char-big-icon">🥚</div>
+      <div class="char-stat-block">
+        <div class="stat-row"><span class="stat-name">SPEED</span><div class="stat-bar"><div class="stat-fill egg-fill" style="width:20%"></div></div><span>20</span></div>
+        <div class="stat-row"><span class="stat-name">CUNNING</span><div class="stat-bar"><div class="stat-fill egg-fill" style="width:99%"></div></div><span>99</span></div>
+        <div class="stat-row"><span class="stat-name">MACHINES</span><div class="stat-bar"><div class="stat-fill egg-fill" style="width:100%"></div></div><span>MAX</span></div>
+        <div class="stat-row"><span class="stat-name">STUBBORN</span><div class="stat-bar"><div class="stat-fill egg-fill" style="width:100%"></div></div><span>MAX</span></div>
+      </div>
+    </div>
+    <div class="char-card-info">
+      <div class="char-info-header">
+        <h2 class="char-big-name">DR. EGGMAN</h2>
+        <div class="char-role-tag egg-tag">THE VILLAIN</div>
+      </div>
+      <p class="char-bio">Doctor Ivo "Eggman" Robotnik. IQ of 300. Owner of the Eggman Empire. Collector of defeats at the hands of a blue hedgehog. Eggman is simultaneously the most dangerous scientist on the planet and a figure of genuine comedic tragedy — always one scheme away from world domination, never quite getting there.</p>
+      <p class="char-bio">In Sonic Velocity Comics, we give Eggman more depth than ever: his obsession isn't mere villainy. It's a mission. And that makes him truly terrifying.</p>
+      <div class="char-appearances">
+        <div class="appear-label">APPEARS IN:</div>
+        <div class="appear-tags">
+          <span class="appear-tag">#01</span>
+          <span class="appear-tag">#02</span>
+          <span class="appear-tag">#03</span>
+          <span class="appear-tag">#04</span>
+          <span class="appear-tag">#05</span>
+        </div>
+      </div>
+      <a href="issues.html#issue1" class="btn btn-small">READ HIS STORY</a>
+    </div>
+  </div>
+
+</section>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-logo">⚡ SONIC VELOCITY COMICS</div>
+    <p class="footer-disclaimer">Fan-made, non-commercial. Sonic the Hedgehog © SEGA. No copyright infringement intended.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="issues.html">Issues</a>
+      <a href="characters.html">Characters</a>
+      <a href="about.html">About</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About — Sonic Velocity Comics</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Oswald:wght@400;700&family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-logo">
+    <span class="logo-text">⚡ SONIC VELOCITY</span>
+    <span class="logo-sub">COMICS</span>
+  </div>
+  <ul class="nav-links">
+    <li><a href="index.html" class="nav-link">HOME</a></li>
+    <li><a href="issues.html" class="nav-link">ISSUES</a></li>
+    <li><a href="characters.html" class="nav-link">CHARACTERS</a></li>
+    <li><a href="about.html" class="nav-link active">ABOUT</a></li>
+  </ul>
+  <div class="nav-burger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<div class="page-header">
+  <div class="speed-lines"></div>
+  <h1 class="page-title">ABOUT US</h1>
+  <p class="page-sub">A love letter to a blue hedgehog and 30+ years of history.</p>
+</div>
+
+<section class="section about-section">
+
+  <div class="about-block">
+    <h2 class="about-heading">THE PROJECT</h2>
+    <div class="about-content">
+      <p>Sonic Velocity Comics is a passion project born from a deep love of the Sonic the Hedgehog franchise. What started as a few sketches in a notebook has grown into a full fan-made comic series with thousands of readers around the world.</p>
+      <p>We are not affiliated with SEGA or any official Sonic property. This is created entirely for fun, distributed completely free, and made with respect for the original creators and the incredible legacy they built.</p>
+      <p>Every issue is written, illustrated, and lettered by a small team of dedicated fans working in their spare time. We aim to release one issue per month, with special standalone issues scattered throughout the year.</p>
+    </div>
+  </div>
+
+  <div class="about-block">
+    <h2 class="about-heading">THE TEAM</h2>
+    <div class="team-grid">
+      <div class="team-card">
+        <div class="team-avatar">✍️</div>
+        <div class="team-name">ALEX R.</div>
+        <div class="team-role">Writer & Story Director</div>
+        <p class="team-bio">Sonic fan since 1993. Writes all main story arcs and character dialogue. Obsessed with Shadow's character arc.</p>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">🎨</div>
+        <div class="team-name">MIRA K.</div>
+        <div class="team-role">Lead Artist & Cover Designer</div>
+        <p class="team-bio">Specializes in dynamic action pages and expressive character work. Green Hill Zone is her happy place.</p>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">🖊️</div>
+        <div class="team-name">JAMES T.</div>
+        <div class="team-role">Letterer & Layout Artist</div>
+        <p class="team-bio">Handles all the speech bubbles, sound effects, and panel composition. Makes the words hit as hard as the art.</p>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">🌐</div>
+        <div class="team-name">PRIYA M.</div>
+        <div class="team-role">Web & Community Manager</div>
+        <p class="team-bio">Keeps the site running, manages social media, and is the main point of contact for fan mail and submissions.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="about-block">
+    <h2 class="about-heading">FREQUENTLY ASKED QUESTIONS</h2>
+    <div class="faq-list">
+      <div class="faq-item" onclick="toggleFaq(this)">
+        <div class="faq-q">Is this official? Are you affiliated with SEGA?</div>
+        <div class="faq-a">No — this is entirely fan-made and non-commercial. We have no affiliation with SEGA, Sonic Team, or any official Sonic licensees. All Sonic characters belong to SEGA.</div>
+      </div>
+      <div class="faq-item" onclick="toggleFaq(this)">
+        <div class="faq-q">How often do new issues release?</div>
+        <div class="faq-a">We aim for one main issue per month, typically at the end of the month. Special standalone issues are released occasionally throughout the year. Follow us on social media for release announcements.</div>
+      </div>
+      <div class="faq-item" onclick="toggleFaq(this)">
+        <div class="faq-q">Is everything really free?</div>
+        <div class="faq-a">Yes! Every issue is completely free to read online and download. We will never charge for our fan comics. You can support us by sharing the site with other Sonic fans.</div>
+      </div>
+      <div class="faq-item" onclick="toggleFaq(this)">
+        <div class="faq-q">Can I submit fan art or guest content?</div>
+        <div class="faq-a">Absolutely! We love featuring fan art from the community. Send your submissions to our email address (on this page) with the subject line "FAN ART SUBMISSION." We'll credit you fully and feature it on our social channels.</div>
+      </div>
+      <div class="faq-item" onclick="toggleFaq(this)">
+        <div class="faq-q">Can I join the team?</div>
+        <div class="faq-a">We occasionally open spots for artists and writers. When we're looking, we'll post about it on social media. Keep an eye out — and in the meantime, build your portfolio!</div>
+      </div>
+      <div class="faq-item" onclick="toggleFaq(this)">
+        <div class="faq-q">Where can I read the comics?</div>
+        <div class="faq-a">Right here on this site! Head to the Issues page to read online or download each issue as a PDF. No account required.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="about-block">
+    <h2 class="about-heading">LEGAL NOTICE</h2>
+    <div class="legal-box">
+      <p>Sonic the Hedgehog, Miles "Tails" Prower, Knuckles the Echidna, Amy Rose, Shadow the Hedgehog, Doctor Eggman, and all related characters, names, and logos are trademarks of SEGA Corporation. This fan comic is created purely for entertainment and educational purposes, distributed completely free of charge, with absolutely no commercial intent.</p>
+      <p>All original story content, dialogue, and artistic interpretations in Sonic Velocity Comics are the creative work of the Sonic Velocity team. Reproduction of our original work without permission is not permitted.</p>
+      <p>If you are a rights holder and have concerns about this project, please contact us directly before taking action. We are fans who love this franchise and will address any concerns promptly and respectfully.</p>
+    </div>
+  </div>
+
+  <div class="about-block contact-block">
+    <h2 class="about-heading">CONTACT</h2>
+    <div class="contact-grid">
+      <div class="contact-item">
+        <div class="contact-icon">✉️</div>
+        <div class="contact-label">EMAIL</div>
+        <div class="contact-val">sonicvelocitycomics@fanmail.com</div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">🐦</div>
+        <div class="contact-label">TWITTER / X</div>
+        <div class="contact-val">@SonicVelocityComics</div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">📷</div>
+        <div class="contact-label">INSTAGRAM</div>
+        <div class="contact-val">@sonicvelocitycomics</div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">💬</div>
+        <div class="contact-label">DISCORD</div>
+        <div class="contact-val">discord.gg/sonicvelocity</div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-logo">⚡ SONIC VELOCITY COMICS</div>
+    <p class="footer-disclaimer">Fan-made, non-commercial. Sonic the Hedgehog © SEGA. No copyright infringement intended.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="issues.html">Issues</a>
+      <a href="characters.html">Characters</a>
+      <a href="about.html">About</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

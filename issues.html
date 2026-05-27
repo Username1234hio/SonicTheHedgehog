@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Issues — Sonic Velocity Comics</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Oswald:wght@400;700&family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-logo">
+    <span class="logo-text">⚡ SONIC VELOCITY</span>
+    <span class="logo-sub">COMICS</span>
+  </div>
+  <ul class="nav-links">
+    <li><a href="index.html" class="nav-link">HOME</a></li>
+    <li><a href="issues.html" class="nav-link active">ISSUES</a></li>
+    <li><a href="characters.html" class="nav-link">CHARACTERS</a></li>
+    <li><a href="about.html" class="nav-link">ABOUT</a></li>
+  </ul>
+  <div class="nav-burger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- PAGE HEADER -->
+<div class="page-header">
+  <div class="speed-lines"></div>
+  <h1 class="page-title">ALL ISSUES</h1>
+  <p class="page-sub">Every issue of Sonic Velocity Comics — free to read.</p>
+</div>
+
+<!-- ARC FILTER -->
+<div class="filter-bar">
+  <button class="filter-btn active" onclick="filterIssues('all')">ALL</button>
+  <button class="filter-btn" onclick="filterIssues('origins')">ARC 1: ORIGINS</button>
+  <button class="filter-btn" onclick="filterIssues('chaos')">ARC 2: CHAOS PROTOCOL</button>
+  <button class="filter-btn" onclick="filterIssues('standalone')">STANDALONE</button>
+</div>
+
+<!-- ISSUES LIST -->
+<section class="section issues-full">
+
+  <!-- ARC 2 HEADER -->
+  <div class="arc-divider">
+    <div class="arc-div-line"></div>
+    <span class="arc-div-label">ARC 2: THE CHAOS PROTOCOL</span>
+    <div class="arc-div-line"></div>
+  </div>
+
+  <div class="full-issues-grid">
+
+    <div class="full-issue-card" id="issue5" data-arc="chaos">
+      <div class="full-cover cover5">
+        <div class="full-issue-badge new">NEW</div>
+        <div class="full-issue-num">#05</div>
+      </div>
+      <div class="full-issue-details">
+        <div class="full-meta">
+          <span class="full-arc-tag chaos-tag">ARC 2</span>
+          <span class="full-date">December 2025</span>
+        </div>
+        <h2 class="full-issue-title">SPEED OF DARKNESS</h2>
+        <p class="full-synopsis">Shadow returns to Station Square with an ultimatum from a shadowy organization known only as PHANTOM GEAR. His message is clear: Sonic surrenders himself, or the city pays the price. But when Sonic digs into PHANTOM GEAR's true motives, the truth hits harder than a Chaos Spear. 36 pages of heart-pounding action.</p>
+        <div class="full-stats">
+          <span>📄 36 pages</span>
+          <span>⭐ Rating: 4.9/5</span>
+          <span>👁️ 12,430 reads</span>
+        </div>
+        <div class="full-btns">
+          <a href="#" class="btn btn-primary" onclick="openReader('issue5')">READ ONLINE</a>
+          <a href="#" class="btn btn-outline" onclick="downloadIssue('issue5')">DOWNLOAD PDF</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="full-issue-card" id="issue4" data-arc="chaos">
+      <div class="full-cover cover4">
+        <div class="full-issue-num">#04</div>
+      </div>
+      <div class="full-issue-details">
+        <div class="full-meta">
+          <span class="full-arc-tag chaos-tag">ARC 2</span>
+          <span class="full-date">November 2025</span>
+        </div>
+        <h2 class="full-issue-title">EMERALD TIDE</h2>
+        <p class="full-synopsis">The seven Chaos Emeralds have been scattered by an experimental Eggman device — the SCATTER-BEAM 9000. Knuckles takes the lead, tracking each gem across the globe while Eggman's Badniks hunt him at every turn. Meanwhile, Sonic races to disable the main device before it fires again.</p>
+        <div class="full-stats">
+          <span>📄 32 pages</span>
+          <span>⭐ Rating: 4.8/5</span>
+          <span>👁️ 18,750 reads</span>
+        </div>
+        <div class="full-btns">
+          <a href="#" class="btn btn-primary" onclick="openReader('issue4')">READ ONLINE</a>
+          <a href="#" class="btn btn-outline" onclick="downloadIssue('issue4')">DOWNLOAD PDF</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="full-issue-card" id="issue3" data-arc="chaos">
+      <div class="full-cover cover3">
+        <div class="full-issue-num">#03</div>
+      </div>
+      <div class="full-issue-details">
+        <div class="full-meta">
+          <span class="full-arc-tag chaos-tag">ARC 2</span>
+          <span class="full-date">October 2025</span>
+        </div>
+        <h2 class="full-issue-title">MILES APART</h2>
+        <p class="full-synopsis">When Sonic is grounded (literally — his shoes stolen by a mischievous Chao), Tails must go solo into the heart of Eggman's Metropolis Zone base. A tale of growth, courage, and what it means to step out of someone else's shadow. Illustrated in a bold, Tails-centric art style.</p>
+        <div class="full-stats">
+          <span>📄 28 pages</span>
+          <span>⭐ Rating: 4.7/5</span>
+          <span>👁️ 21,090 reads</span>
+        </div>
+        <div class="full-btns">
+          <a href="#" class="btn btn-primary" onclick="openReader('issue3')">READ ONLINE</a>
+          <a href="#" class="btn btn-outline" onclick="downloadIssue('issue3')">DOWNLOAD PDF</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ARC 1 HEADER -->
+  <div class="arc-divider">
+    <div class="arc-div-line"></div>
+    <span class="arc-div-label">ARC 1: ORIGINS</span>
+    <div class="arc-div-line"></div>
+  </div>
+
+  <div class="full-issues-grid">
+
+    <div class="full-issue-card" id="issue2" data-arc="origins">
+      <div class="full-cover cover2">
+        <div class="full-issue-num">#02</div>
+      </div>
+      <div class="full-issue-details">
+        <div class="full-meta">
+          <span class="full-arc-tag origins-tag">ARC 1</span>
+          <span class="full-date">September 2025</span>
+        </div>
+        <h2 class="full-issue-title">FRICTION & FIRE</h2>
+        <p class="full-synopsis">Sonic's rivalry with Shadow ignites for the first time. Their clash across Green Hill Zone leaves a trail of destruction — and a grudging respect neither will admit. Guest art by fan artist @TailsArtworks.</p>
+        <div class="full-stats">
+          <span>📄 30 pages</span>
+          <span>⭐ Rating: 4.6/5</span>
+          <span>👁️ 29,300 reads</span>
+        </div>
+        <div class="full-btns">
+          <a href="#" class="btn btn-primary" onclick="openReader('issue2')">READ ONLINE</a>
+          <a href="#" class="btn btn-outline" onclick="downloadIssue('issue2')">DOWNLOAD PDF</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="full-issue-card" id="issue1" data-arc="origins">
+      <div class="full-cover cover1">
+        <div class="full-issue-num">#01</div>
+      </div>
+      <div class="full-issue-details">
+        <div class="full-meta">
+          <span class="full-arc-tag origins-tag">ARC 1</span>
+          <span class="full-date">August 2025</span>
+        </div>
+        <h2 class="full-issue-title">RUNNING START</h2>
+        <p class="full-synopsis">The very first issue. A new threat emerges on the horizon as Eggman unveils Project: HYPER BADNIK. Sonic and Tails race to stop the launch — but something feels different about this machine. The comic that started it all. Recommended for new readers!</p>
+        <div class="full-stats">
+          <span>📄 24 pages</span>
+          <span>⭐ Rating: 4.5/5</span>
+          <span>👁️ 47,200 reads</span>
+        </div>
+        <div class="full-btns">
+          <a href="#" class="btn btn-primary" onclick="openReader('issue1')">READ ONLINE</a>
+          <a href="#" class="btn btn-outline" onclick="downloadIssue('issue1')">DOWNLOAD PDF</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- STANDALONE -->
+    <div class="arc-divider">
+      <div class="arc-div-line"></div>
+      <span class="arc-div-label">STANDALONE SPECIALS</span>
+      <div class="arc-div-line"></div>
+    </div>
+
+    <div class="full-issue-card" id="issueS1" data-arc="standalone">
+      <div class="full-cover coverS1">
+        <div class="full-issue-badge special">SPECIAL</div>
+        <div class="full-issue-num">S#1</div>
+      </div>
+      <div class="full-issue-details">
+        <div class="full-meta">
+          <span class="full-arc-tag special-tag">SPECIAL</span>
+          <span class="full-date">October 2025</span>
+        </div>
+        <h2 class="full-issue-title">AMY'S DAY OFF</h2>
+        <p class="full-synopsis">A light-hearted standalone story following Amy Rose through a peaceful day in Station Square — until a rogue Badnik decides to ruin her lunch. Full of humor, heart, and hammer action. Perfect for all ages.</p>
+        <div class="full-stats">
+          <span>📄 18 pages</span>
+          <span>⭐ Rating: 4.8/5</span>
+          <span>👁️ 15,600 reads</span>
+        </div>
+        <div class="full-btns">
+          <a href="#" class="btn btn-primary" onclick="openReader('issueS1')">READ ONLINE</a>
+          <a href="#" class="btn btn-outline" onclick="downloadIssue('issueS1')">DOWNLOAD PDF</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- READER MODAL -->
+<div class="reader-modal" id="readerModal">
+  <div class="reader-inner">
+    <div class="reader-header">
+      <span class="reader-title" id="readerTitle">SONIC VELOCITY — READING</span>
+      <button class="reader-close" onclick="closeReader()">✕ CLOSE</button>
+    </div>
+    <div class="reader-body">
+      <div class="reader-page-display">
+        <div class="mock-page" id="mockPage">
+          <div class="mock-panel p1"></div>
+          <div class="mock-panel p2"></div>
+          <div class="mock-panel p3"></div>
+          <div class="mock-panel p4"></div>
+        </div>
+      </div>
+      <div class="reader-controls">
+        <button class="reader-btn" onclick="prevPage()">◀ PREV</button>
+        <span class="reader-pg-info" id="pageInfo">Page 1 of 24</span>
+        <button class="reader-btn" onclick="nextPage()">NEXT ▶</button>
+      </div>
+      <p class="reader-note">📌 This is a demo reader. Upload your comic pages to populate each issue.</p>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-logo">⚡ SONIC VELOCITY COMICS</div>
+    <p class="footer-disclaimer">Fan-made, non-commercial. Sonic the Hedgehog © SEGA. No copyright infringement intended.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="issues.html">Issues</a>
+      <a href="characters.html">Characters</a>
+      <a href="about.html">About</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
