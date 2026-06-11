@@ -32,6 +32,13 @@
   <p class="page-sub">Every issue of Sonic Velocity Comics — free to read.</p>
 </div>
 
+<!-- ARC FILTER -->
+<div class="filter-bar">
+  <button class="filter-btn active" onclick="filterIssues('all', event)">ALL</button>
+  <button class="filter-btn" onclick="filterIssues('origins', event)">ARC 1: CORRUPTION</button>
+  <button class="filter-btn" onclick="filterIssues('standalone', event)">OUTTAKES</button>
+</div>
+
 <!-- ISSUES LIST -->
 <section class="section issues-full">
 
@@ -75,23 +82,27 @@
           <span class="full-date">June 10th 2026</span>
         </div>
         <h2 class="full-issue-title">Issue 1</h2>
-        <p class="full-synopsis">Following the events of Frontiers, disappearances off the coast of Apotos have led to Sonic and the Chaotix leading an investigation that only reveal more mysteries than answers. </p>
+        <p class="full-synopsis">Following the events of Frontiers, disappearances off the coast of Apotos have led to Sonic and the Chaotix leading an investigation that only reveal more mysteries than answers.</p>
         <div class="full-stats">
           <span>📄 24 pages</span>
         </div>
         <div class="full-btns">
-          <a href="https://drive.google.com/file/d/11GIf9f1TW3elnDlw2_ifvjaw7HDE4L3h/view?usp=drivesdk" class="btn btn-primary" onclick="openReader('issue1')">READ ONLINE</a>
-          <a href="#" class="btn btn-outline" target="_blank" rel="noopener noreferrer">DOWNLOAD PDF</
+          <a href="https://drive.google.com/file/d/11GIf9f1TW3elnDlw2_ifvjaw7HDE4L3h/view?usp=drivesdk" class="btn btn-primary" target="_blank" rel="noopener noreferrer">READ ONLINE</a>
+          <a href="#" class="btn btn-outline" onclick="downloadIssue('issue1')">DOWNLOAD PDF</a>
         </div>
       </div>
     </div>
 
-    <!-- STANDALONE -->
-    <div class="arc-divider">
-      <div class="arc-div-line"></div>
-      <span class="arc-div-label">OUTTAKES!</span>
-      <div class="arc-div-line"></div>
-    </div>
+  </div>
+
+  <!-- OUTTAKES -->
+  <div class="arc-divider">
+    <div class="arc-div-line"></div>
+    <span class="arc-div-label">OUTTAKES!</span>
+    <div class="arc-div-line"></div>
+  </div>
+
+  <div class="full-issues-grid">
 
     <div class="full-issue-card" id="issueS1" data-arc="standalone">
       <div class="full-cover coverS1">
@@ -103,12 +114,13 @@
           <span class="full-arc-tag special-tag">OUTTAKES</span>
           <span class="full-date">TBD</span>
         </div>
-        <h2 class="full-issue-title">C1 - We didnt add this?</h2>
-        <p class="full-synopsis">Amy Rose: Girls Trip; A comic of Amy, Cream, Sticks, Tangle, and Whisper driving around the Sonic equivalent to Canada focusing on the bonds everyone has and Amy’s feelings on Sonic.
-</p>
+        <h2 class="full-issue-title">C1 — We Didn't Add This?</h2>
+        <p class="full-synopsis">Amy Rose: Girls Trip — A comic following Amy, Cream, Sticks, Tangle, and Whisper on a road trip through the Sonic equivalent of Canada. Focusing on the bonds between them all, and Amy's feelings about Sonic.</p>
         <div class="full-stats">
+          <span>📄 Pages TBD</span>
         </div>
         <div class="full-btns">
+          <span class="coming-soon-tag">COMING SOON</span>
         </div>
       </div>
     </div>
