@@ -401,17 +401,7 @@ body {
   transition: transform 0.2s, box-shadow 0.2s;
   position: relative;
 }
-/* Custom background for Issue 1 specifically */
-#issue1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), 
-                    url('Background/IMG_4836.png');
-}
 
-/* Custom background for Issue 2 when you create it */
-#issue2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), 
-                    url('Background/bg-issue2.jpg');
-}
 .issue-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 12px 40px rgba(26,111,212,0.3);
@@ -896,6 +886,17 @@ body {
   display: flex;
   gap: 0.75rem;
   flex-wrap: wrap;
+  align-items: center;
+}
+
+.coming-soon-tag {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-size: 0.7rem;
+  color: var(--sonic-grey);
+  border: 2px dashed rgba(255,255,255,0.2);
+  padding: 0.4rem 1rem;
 }
 
 /* ========================
