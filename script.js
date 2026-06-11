@@ -115,12 +115,12 @@ function downloadIssue(issueId) {
 // ========================
 // FILTER (ISSUES PAGE)
 // ========================
-function filterIssues(arc) {
+function filterIssues(arc, event) {
   const cards = document.querySelectorAll('.full-issue-card[data-arc]');
   const btns = document.querySelectorAll('.filter-btn');
 
   btns.forEach(btn => btn.classList.remove('active'));
-  event.target.classList.add('active');
+  if (event && event.target) event.target.classList.add('active');
 
   cards.forEach(card => {
     if (arc === 'all' || card.dataset.arc === arc) {
